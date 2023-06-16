@@ -29,7 +29,7 @@ y = np.repeat(np.linspace(-1, 1, h), w)
 
 if 0:
     c = np.sqrt(.5)
-    print 'c', c
+    print( 'c', c)
     def norm(v):
         # v -= min(v)
         v /= max(v)
@@ -44,8 +44,8 @@ else:
     else:
         g = np.sqrt(g) / 1.4
     g = 1 - g
-print min(g), max(g)
-print g[256]
+print( min(g), max(g))
+print(g[256])
 c0 = rgb(1, 1, 0)
 c1 = rgb(0, 0, 1)
 
