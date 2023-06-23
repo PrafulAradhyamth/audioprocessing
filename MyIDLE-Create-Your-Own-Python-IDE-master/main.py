@@ -1,6 +1,6 @@
-from tkinter import *
-from tkinter import messagebox
-from tkinter.filedialog import asksaveasfilename, askopenfilename
+from tk import *
+from tk import messagebox
+from tk.filedialog import asksaveasfilename, askopenfilename
 import subprocess
 import os
 
